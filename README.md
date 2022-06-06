@@ -4,9 +4,9 @@
 
 Os Projetos nomeado ARK são uma aplicação desenvolvidos em java na IDE NetBens. O objetivo é desenvolver um projeto partindo de listas de exercícios encontrados na Internet, seriam projetos mais simples.
 
-Ark 4 é um projeto de gerenciamento de uma biblioteca, através do projeto, usuário poderá efetuar o cadastramento de um livro possuindo 2 parâmetros, sendo ele o título do livro e o número de páginas, após o cadastro ser realizado o livro é listado utilizando uma JTable. 
+Ark 4 é um projeto que converte os números inteiros em binário, de forma que o usuário informará os números que ele desejará converter e a aplicação responderá com os números convertidos em binário.
 
-Para realizar essa aplicação, estou utilizando o paradigma da POO (Programação Orientada a Objeto) na linguagem de programação Java.
+Nesse projeto somente serão aceitos números inteiros.
 
 </br>
 
