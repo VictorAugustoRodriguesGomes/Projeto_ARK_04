@@ -15,43 +15,43 @@ public class ARK04 {
         for (int i = 0; i < j; i++) {
             suporte = mensagem.substring(x, y);
             if (suporte.equals("1")) {
-                suporte = "00000001";
+                suporte = "00110001 ";
                 mensagem2 = mensagem2.concat(suporte);
             } else {
                 if (suporte.equals("2")) {
-                    suporte = "00000010";
+                    suporte = "00110010 ";
                     mensagem2 = mensagem2.concat(suporte);
                 } else {
                     if (suporte.equals("3")) {
-                        suporte = "00000011";
+                        suporte = "00110011 ";
                         mensagem2 = mensagem2.concat(suporte);
                     } else {
                         if (suporte.equals("4")) {
-                            suporte = "00000100";
+                            suporte = "00110100 ";
                             mensagem2 = mensagem2.concat(suporte);
                         } else {
                             if (suporte.equals("5")) {
-                                suporte = "00000101";
+                                suporte = "00110101 ";
                                 mensagem2 = mensagem2.concat(suporte);
                             } else {
                                 if (suporte.equals("6")) {
-                                    suporte = "00000110";
+                                    suporte = "00110110 ";
                                     mensagem2 = mensagem2.concat(suporte);
                                 } else {
                                     if (suporte.equals("7")) {
-                                        suporte = "00000111";
+                                        suporte = "00110111 ";
                                         mensagem2 = mensagem2.concat(suporte);
                                     } else {
                                         if (suporte.equals("8")) {
-                                            suporte = "00001000";
+                                            suporte = "00111000 ";
                                             mensagem2 = mensagem2.concat(suporte);
                                         } else {
                                             if (suporte.equals("9")) {
-                                                suporte = "00001001";
+                                                suporte = "00111001 ";
                                                 mensagem2 = mensagem2.concat(suporte);
                                             } else {
                                                 if (suporte.equals("0")) {
-                                                    suporte = "00000000";
+                                                    suporte = "00110000 ";
                                                     mensagem2 = mensagem2.concat(suporte);
                                                 } else {
                                                     JOptionPane.showMessageDialog(null, "Informe apenas numeros!\n O programa será encerrado!");
@@ -69,6 +69,6 @@ public class ARK04 {
             x = x + 1;
             y = y + 1;
         }
-        JOptionPane.showMessageDialog(null, "Resutado: " + mensagem2 + ".");
+        JOptionPane.showMessageDialog(null, "Resutado: " + mensagem2);
     }
 }
