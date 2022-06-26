@@ -2,7 +2,7 @@
 
 # Projeto ARK 04
 
-Os Projetos nomeado ARK são uma aplicação desenvolvidos em java na IDE NetBens. O objetivo é desenvolver um projeto partindo de listas de exercícios encontrados na Internet, seriam projetos mais simples.
+Os projetos nomeados ARK são uma aplicação desenvolvida em Java na IDE NetBeans. O objetivo é desenvolver um projeto partindo de listas de exercícios encontrados na Internet, seriam projetos mais simples.
 
 Ark 4 é um projeto que converte os números inteiros em binário, de forma que o usuário informará os números que ele desejará converter e a aplicação responderá com os números convertidos em binário.
 
